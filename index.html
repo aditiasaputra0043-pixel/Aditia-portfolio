@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111111">
+<meta name="description" content="Portofolio pribadi Aditia — Sales Marketing dan Teknologi Informasi.">
+<title>Aditia S. — Personal Portfolio</title>
+<style>
+:root{--bg:#f7f7f7;--paper:#fff;--ink:#111;--muted:#666;--line:#dedede;--soft:#efefef;--max:1080px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+a{color:inherit}
+.wrap{width:min(var(--max),calc(100% - 36px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:66px}
+.brand{font-weight:800;letter-spacing:.08em;text-decoration:none}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{text-decoration:none;color:#444;font-size:.9rem}
+nav a:hover{text-decoration:underline}
+.hero{padding:86px 0 72px;background:var(--paper);border-bottom:1px solid var(--line)}
+.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:.75rem;font-weight:700;color:var(--muted)}
+h1{font-size:clamp(2.7rem,8vw,5.8rem);line-height:.98;letter-spacing:-.055em;margin:18px 0}
+.lead{max-width:720px;color:#444;font-size:clamp(1.05rem,2.5vw,1.25rem)}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:26px 0}
+.tag{border:1px solid #ccc;border-radius:99px;padding:6px 12px;font-size:.82rem}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:12px 17px;border:1px solid var(--ink);text-decoration:none;font-weight:700;font-size:.9rem}
+.btn.primary{background:var(--ink);color:#fff}
+section{padding:68px 0;border-bottom:1px solid var(--line)}
+.section-head{display:flex;gap:20px;align-items:baseline;margin-bottom:28px}
+.num{font-size:.8rem;color:var(--muted);letter-spacing:.12em}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);letter-spacing:-.035em;margin:0}
+h3{font-size:1.08rem;margin:0 0 6px}
+p{margin:8px 0 14px}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:var(--paper);border:1px solid var(--line);padding:24px}
+.card p:last-child{margin-bottom:0}
+.date{font-size:.88rem;color:var(--muted);margin-bottom:12px}
+ul{padding-left:19px;margin:10px 0}
+li{padding:3px 0}
+.skills{display:flex;gap:8px;flex-wrap:wrap}
+.skills span{background:var(--soft);padding:7px 10px;font-size:.86rem}
+.project{display:flex;flex-direction:column;min-height:220px}
+.project .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:12px}
+.placeholder{border:1px dashed #aaa;padding:14px;color:#555;background:#fafafa;font-size:.9rem;margin-top:auto}
+.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.contact-item{padding:18px;border:1px solid var(--line);background:var(--paper);overflow-wrap:anywhere}
+.contact-item strong{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:5px}
+footer{padding:26px 0;color:var(--muted);font-size:.85rem}
+.note{font-size:.86rem;color:#555;border-left:3px solid #111;padding:10px 14px;background:#f0f0f0}
+@media(max-width:720px){.nav{align-items:flex-start;flex-direction:column;padding:14px 0}.nav nav{gap:12px}.hero{padding:60px 0 52px}.grid,.contact-grid{grid-template-columns:1fr}.card{padding:20px}section{padding:52px 0}.section-head{display:block}.num{display:block;margin-bottom:8px}}
+@media print{header,.actions{display:none}.hero,section{padding:28px 0}.wrap{width:100%}body{background:#fff}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">ADITIA S.</a>
+    <nav aria-label="Navigasi utama">
+      <a href="#about">Profil</a><a href="#experience">Pengalaman</a><a href="#education">Pendidikan</a><a href="#projects">Proyek</a><a href="#skills">Keahlian</a><a href="#contact">Kontak</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="kicker">Personal Portfolio · Kabupaten Bandung</div>
+      <h1>Aditia S.</h1>
+      <p class="lead">Sales &amp; Marketing · Teknologi Informasi · Kreatif Digital</p>
+      <p class="muted" style="max-width:760px">Lulusan SMK jurusan Teknik Komputer dan Jaringan dengan pengalaman sales marketing serta praktik teknologi informasi. Terbiasa berkomunikasi dengan konsumen, mempromosikan produk, dan mengembangkan keterampilan teknis.</p>
+      <div class="tags"><span class="tag">Sales &amp; Marketing</span><span class="tag">Jaringan Komputer</span><span class="tag">Konten Digital</span></div>
+      <div class="actions"><a class="btn primary" href="#experience">Lihat Pengalaman</a><a class="btn" href="#contact">Hubungi Saya</a></div>
+    </div>
+  </section>
+
+  <section id="about"><div class="wrap">
+    <div class="section-head"><span class="num">01 / PROFIL</span><h2>Tentang Saya</h2></div>
+    <p style="max-width:850px">Saya merupakan lulusan SMK jurusan Teknik Komputer dan Jaringan (TKJ) yang memiliki pengalaman kerja di bidang sales marketing dan pengalaman praktik di bidang teknologi informasi. Saya memiliki kemampuan komunikasi, pelayanan konsumen, pemasaran melalui media sosial, serta dasar jaringan komputer. Saya siap belajar, beradaptasi, dan berkontribusi di lingkungan kerja profesional.</p>
+    <div class="grid" style="margin-top:22px">
+      <article class="card"><h3>Fokus Sales &amp; Marketing</h3><p class="muted">Pencarian calon konsumen, promosi, follow-up, pelayanan, dan penjelasan produk.</p></article>
+      <article class="card"><h3>Fokus Teknologi Informasi</h3><p class="muted">Dasar jaringan komputer, MikroTik, Cisco Packet Tracer, Windows Deployment Server, dan Windows ADK.</p></article>
+    </div>
+  </div></section>
+
+  <section id="experience"><div class="wrap">
+    <div class="section-head"><span class="num">02 / PENGALAMAN</span><h2>Pengalaman Kerja</h2></div>
+    <article class="card">
+      <h3>Sales Marketing — Yamaha Bintang Rejeki Motor</h3><div class="date">Januari 2026 – September 2026</div>
+      <p>Berperan dalam kegiatan pemasaran sepeda motor Yamaha, mulai dari mencari calon konsumen hingga membantu proses pengajuan pembelian.</p>
+      <ul>
+        <li>Mencari calon konsumen melalui pemasaran langsung dan media sosial.</li>
+        <li>Membuat poster serta konten promosi produk.</li>
+        <li>Menjelaskan spesifikasi motor, program promosi, uang muka, dan simulasi kredit.</li>
+        <li>Melakukan follow-up dan menjaga komunikasi dengan calon konsumen.</li>
+        <li>Membantu proses pengajuan pembelian sepeda motor.</li>
+      </ul>
+      <p><strong>Pencapaian:</strong> Penjualan secara konsisten melebihi target yang ditetapkan (berdasarkan informasi yang diberikan; angka target dan jumlah unit belum dicantumkan).</p>
+    </article>
+  </div></section>
+
+  <section id="education"><div class="wrap">
+    <div class="section-head"><span class="num">03 / PENDIDIKAN</span><h2>Pendidikan &amp; PKL</h2></div>
+    <div class="grid">
+      <article class="card"><h3>SMKN 6 Garut</h3><div class="date">2022 – 2025</div><p><strong>Teknik Komputer dan Jaringan (TKJ)</strong></p><p class="muted">Pendidikan vokasi dengan fokus pada dasar teknologi informasi dan jaringan komputer.</p></article>
+      <article class="card"><h3>MTs Al-Hidayah Ciaro</h3><p class="muted">Pendidikan menengah pertama. Tahun pendidikan tidak dicantumkan.</p></article>
+    </div>
+    <article class="card" style="margin-top:16px">
+      <h3>DTI ITB — Praktik Kerja Lapangan</h3><div class="date">Oktober 2024 – Februari 2025</div>
+      <ul>
+        <li>Membantu pembuatan dan konfigurasi Windows Deployment Server.</li>
+        <li>Menggunakan Windows Assessment and Deployment Kit (Windows ADK) untuk pekerjaan terkait deployment Windows.</li>
+        <li>Membantu kegiatan kepanitiaan ujian siswa dan ujian SNBP.</li>
+      </ul>
+    </article>
+  </div></section>
+
+  <section id="projects"><div class="wrap">
+    <div class="section-head"><span class="num">04 / KARYA</span><h2>Proyek &amp; Dokumentasi</h2></div>
+    <div class="grid">
+      <article class="card project"><div class="label">Sales &amp; Marketing</div><h3>Materi Promosi Motor</h3><p class="muted">Poster dan konten promosi untuk menyampaikan informasi produk serta mendukung pemasaran.</p><div class="placeholder">Tambahkan poster Yamaha asli di sini. Hindari mengunggah materi internal atau data konsumen.</div></article>
+      <article class="card project"><div class="label">Teknologi Informasi</div><h3>Windows Deployment Server</h3><p class="muted">Pengalaman praktik terkait Windows Deployment Server dan Windows ADK selama PKL.</p><div class="placeholder">Tambahkan tangkapan layar atau foto dokumentasi proyek asli.</div></article>
+      <article class="card project"><div class="label">Kreatif Digital</div><h3>Desain &amp; Konten</h3><p class="muted">Contoh desain Canva, video CapCut, atau karya PixelLab yang pernah dibuat.</p><div class="placeholder">Tambahkan karya sendiri beserta deskripsi singkat tujuan dan peranmu.</div></article>
+      <article class="card project"><div class="label">Dokumentasi</div><h3>PKL &amp; Sertifikat</h3><p class="muted">Dokumentasi kegiatan PKL dan sertifikat pendukung pengalaman serta kompetensi.</p><div class="placeholder">Tambahkan foto PKL dan salinan sertifikat yang sudah disamarkan dari data sensitif.</div></article>
+    </div>
+    <p class="note" style="margin-top:18px">Area di atas adalah tempat untuk memasukkan bukti asli. Jangan menganggap placeholder sebagai dokumentasi proyek yang sudah terpasang.</p>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <div class="section-head"><span class="num">05 / KOMPETENSI</span><h2>Keahlian &amp; Sertifikat</h2></div>
+    <div class="card">
+      <h3>Sales &amp; Marketing</h3><div class="skills"><span>Komunikasi Konsumen</span><span>Follow-up</span><span>Promosi Digital</span><span>Penjelasan Produk</span><span>Simulasi Kredit</span></div>
+      <h3 style="margin-top:22px">Teknologi Informasi</h3><div class="skills"><span>Jaringan Komputer</span><span>MikroTik</span><span>Cisco Packet Tracer</span><span>Windows Deployment Server</span><span>Windows ADK</span></div>
+      <h3 style="margin-top:22px">Kreatif Digital</h3><div class="skills"><span>Canva</span><span>CapCut</span><span>PixelLab</span></div>
+    </div>
+    <div class="grid" style="margin-top:16px">
+      <article class="card"><h3>MikroTik Certified Network Associate</h3><p class="muted">MTCNA — sertifikat yang dimiliki.</p></article>
+      <article class="card"><h3>Sertifikat PKL DTI ITB</h3><p class="muted">Sertifikat praktik kerja lapangan.</p></article>
+    </div>
+  </div></section>
+
+  <section id="contact"><div class="wrap">
+    <div class="section-head"><span class="num">06 / KONTAK</span><h2>Mari Terhubung</h2></div>
+    <p class="muted">Terbuka untuk kesempatan kerja di bidang sales, marketing, teknologi informasi, maupun bidang lain yang sesuai dengan kebutuhan perusahaan.</p>
+    <div class="contact-grid" style="margin-top:20px">
+      <div class="contact-item"><strong>Domisili</strong>Kabupaten Bandung</div>
+      <div class="contact-item"><strong>Email</strong><a href="mailto:aditiasaputra0012@gmail.com">aditiasaputra0012@gmail.com</a></div>
+      <div class="contact-item"><strong>WhatsApp</strong><a href="https://wa.me/62882000135622" target="_blank" rel="noopener">0882000135622</a></div>
+    </div>
+  </div></section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Aditia S. · Personal Portfolio · Elegan Hitam Putih</div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
